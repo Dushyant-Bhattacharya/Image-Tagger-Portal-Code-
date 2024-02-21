@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.styledScrollbar::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  .styledScrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(82, 82, 82, 0.514);
+    border-radius: 10px;
+    transition: background-color 2s;
+  }
+  
+  /* Handle on hover */
+  .styledScrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(243, 193, 84, 0.863);
+    border-radius: 10px;
+    cursor: grab;
+  }
